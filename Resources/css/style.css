@@ -167,7 +167,7 @@ height: 800px;
 }
 
 .article-column #small-article:last-child {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 #small-article .small-article-content {
@@ -321,7 +321,7 @@ height: 800px;
 }
 
 #other-thesis-column .article:first-child {
-  background-color: gray;
+  background-color: lightgray;
 }
 
 #other-thesis-column .article {
@@ -356,5 +356,23 @@ height: 800px;
 
 #other-thesis-column .article .content-container .text-container p {
   font-size: 1.2rem;
-  color: lightgray;
+  color: gray;
+}
+
+/* footer */
+
+footer {
+  border-top: lightgray solid 1px;
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+}
+
+footer .subdivision {
+  display: flex;
+  margin: 16px 24px;
+}
+
+footer #terms p {
+  margin: 0rem 1rem
 }
