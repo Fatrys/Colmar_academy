@@ -91,7 +91,7 @@ height: 800px;
 }
 
 .banner #banner-content #banner-button {
-  background-color: gray;
+  background-color: blue;
   text-align: center;
   height: 50px;
   width: 100%;
@@ -113,7 +113,6 @@ height: 800px;
   height: auto;
   width: 100%;
   background-color: white;
-  border: black solid 2px;
 }
 
 .article-content {
@@ -158,7 +157,8 @@ height: 800px;
   flex-direction: column;
   width: 40%;
   height: auto;
-  border: darkgray solid 1px;
+  border-left: darkgray solid 1px;
+
 }
 
 #small-article {
@@ -200,8 +200,6 @@ height: 800px;
   margin: 12px;
 }
 
-
-
 #small-article .image-container {
   width: 35%;
 }
@@ -210,4 +208,60 @@ height: 800px;
   width: 90%;
   margin: 8px;
  height: 95%;
+}
+
+/* Learning section */
+
+.start-learning {
+  width: 100%;
+  background-color: lightgray;
+  margin-bottom: 32px;
+}
+
+
+.start-learning .learning-content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.start-learning .learning-content-container h2 {
+  margin: 32px auto;
+  align-self: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+
+}
+
+.start-learning .learning-content-container .row {
+  width: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 56px;
+  margin-right: 56px;
+  overflow: hidden;
+  margin-bottom: 32px;
+}
+
+.start-learning .learning-content-container .row .course {
+  background-color: white;
+  margin: 0px 16px;
+  width: 32%;
+}
+
+.start-learning .learning-content-container .row .course img {
+  width: 100%;
+}
+
+.start-learning .learning-content-container .row .course .course-content-container {
+  margin: 0px 1rem 1.5rem 1rem;
+}
+
+.start-learning .learning-content-container .row .course h4 {
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.start-learning .learning-content-container .row .course p {
+  margin-bottom: 0.5rem;
 }
